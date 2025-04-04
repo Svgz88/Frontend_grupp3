@@ -35,7 +35,6 @@ const renderProducts = (products) => {
                     </div>
 
                     <div class="d-grid gap-2 d-md-block">
-                    <button class="btn btn-primary btn-sm px-4">Add to cart</button>
                     <button class="btn btn-success btn-sm px-4 buy-now" data-bs-toggle="modal"
                     data-title="${product.title}" 
                     data-description="${product.description}" 
